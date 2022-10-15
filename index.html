@@ -26,7 +26,7 @@
         <div class="nav__menu">
           <ul class="nav__list">
             <li class="nav_item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="bx bx-home-alt-2"></i>
                 <span>Home</span>
               </a>
@@ -51,6 +51,10 @@
             </li>
           </ul>
         </div>
+
+        <!-- Theme Change button -->
+        <i class='bx bx-moon change-theme' id="theme-button" ></i>
+
         <a href="" class="button nav__button"> Subscribe </a>
       </nav>
     </header>
@@ -334,12 +338,10 @@
             <div class="contact__card">
               <div class="contact__card-box">
                 <div class="contact__card-info">
-                    <i class='bx bxs-phone-call' ></i>
+                  <i class="bx bxs-phone-call"></i>
                   <div>
                     <h3 class="contact__card-title">Call</h3>
-                    <p class="contact__card-description">
-                        +234012347890
-                    </p>
+                    <p class="contact__card-description">+234012347890</p>
                   </div>
                 </div>
                 <button class="button contact__card-button">Call Now</button>
@@ -347,12 +349,10 @@
 
               <div class="contact__card-box">
                 <div class="contact__card-info">
-                    <i class='bx bxs-message-rounded-dots' ></i>
+                  <i class="bx bxs-message-rounded-dots"></i>
                   <div>
                     <h3 class="contact__card-title">Chat</h3>
-                    <p class="contact__card-description">
-                        +234012347890
-                    </p>
+                    <p class="contact__card-description">+234012347890</p>
                   </div>
                 </div>
                 <button class="button contact__card-button">Chat Now</button>
@@ -360,25 +360,23 @@
 
               <div class="contact__card-box">
                 <div class="contact__card-info">
-                    <i class='bx bxs-video' ></i>
+                  <i class="bx bxs-video"></i>
                   <div>
                     <h3 class="contact__card-title">Video</h3>
-                    <p class="contact__card-description">
-                        +234012347890
-                    </p>
+                    <p class="contact__card-description">+234012347890</p>
                   </div>
                 </div>
-                <button class="button contact__card-button">Video Call Now</button>
+                <button class="button contact__card-button">
+                  Video Call Now
+                </button>
               </div>
 
               <div class="contact__card-box">
                 <div class="contact__card-info">
-                    <i class='bx bxs-envelope' ></i>
+                  <i class="bx bxs-envelope"></i>
                   <div>
                     <h3 class="contact__card-title">Message</h3>
-                    <p class="contact__card-description">
-                        +234012347890
-                    </p>
+                    <p class="contact__card-description">+234012347890</p>
                   </div>
                 </div>
                 <button class="button contact__card-button">Email Now</button>
@@ -389,13 +387,109 @@
       </section>
 
       <!--==================== SUBSCRIBE ====================-->
-      <section class="subscribe section"></section>
+      <section class="subscribe section">
+        <div class="subscribe__container container">
+          <h1 class="subscribe__title">Get Started with GhostHomes</h1>
+          <p class="subscribe__description">
+            Subscribe and find super attractive price quotes from us, find your
+            residence soon
+          </p>
+          <a href="#" class="button subscribe__button">Get Started</a>
+        </div>
+      </section>
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer section"></footer>
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            GhostHomes<i class="bx bxs-home-alt-2"></i>
+          </a>
+          <p class="footer__description">
+            Our vision is to make all people <br />
+            leave and stay in the best place
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">About</h3>
+
+            <ul class="footer_links">
+              <li>
+                <a href="#" class="footer__link">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Features</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">News & Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Company</h3>
+
+            <ul class="footer_links">
+              <li>
+                <a href="#" class="footer__link">How we work?</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Capital</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Security</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Support</h3>
+
+            <ul class="footer_links">
+              <li>
+                <a href="#" class="footer__link">FAQs</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Support Center</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Follow Us</h3>
+
+            <ul class="footer_social">
+              <a href="" class="footer_social-link">
+                <i class="bx bxl-facebook-circle"></i>
+              </a>
+              <a href="" class="footer_social-link">
+                <i class="bx bxl-instagram-alt"></i>
+              </a>
+              <a href="" class="footer_social-link">
+                <i class="bx bxl-pinterest"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__info container">
+        <span class="footer__copy"> @GhostHomes. All rights reserved </span>
+
+        <div class="footer__privacy">
+          <a href="#">Terms & Agreement</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
 
     <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevrons-up' ></i>
+    </a>
 
     <!--=============== SCROLLREVEAL ===============-->
     <script src=""></script>
